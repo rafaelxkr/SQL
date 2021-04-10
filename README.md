@@ -128,8 +128,7 @@ O between é usado para encontrar valor entre
 um valor mínimo e máximo
 
 ```Coluna1 BETWEEN valor_minimo AND valor_maximo```
-é a mesma coisa que
-```Coluna1 >= valor_minimo AND Coluna1 <= valor_maximo```
+é a mesma coisa que ```Coluna1 >= valor_minimo AND Coluna1 <= valor_maximo```
 
 ```SQL
 -- SELECT * FROM TABELA WHERE coluna1 BETWEEN 10 AND 50
