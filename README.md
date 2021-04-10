@@ -121,3 +121,17 @@ SELECT TOP 10 Name, ListPrice FROM Production.Product ORDER BY ListPrice DESC
 Obter o nome e numero do produto dos produtos que tem o ProductID entre 1~4 */
 SELECT TOP 4 NAME, ProductID FROM Production.Product ORDER BY ProductID ASC
 ```
+
+## BETWEEN
+
+O between é usado para encontrar valor entre
+um valor mínimo e máximo
+
+```Coluna1 BETWEEN valor_minimo AND valor_maximo```
+é a mesma coisa que
+```Coluna1 >= valor_minimo AND Coluna1 <= valor_maximo```
+
+```SQL
+-- SELECT * FROM TABELA WHERE coluna1 BETWEEN 10 AND 50
+SELECT * FROM Production.Product WHERE ListPrice BETWEEN 1000 AND 1500
+```
