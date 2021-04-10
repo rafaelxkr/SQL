@@ -1,8 +1,6 @@
 
 # Comandos SQL
 
-<<<<<<< HEAD
-
 * [SELECT](#SELECT)
 * [DISTINCT](#DISTINCT)
 * [WHERE](#WHERE)
@@ -10,10 +8,6 @@
 * [TOP](#TOP)
 * [ORDER BY](#ORDER-BY)
 * [BETWEEN](#BETWEEN)
-=======
-[BETWEEN](#BETWEEN)
-
->>>>>>> aa00a57c82d8006e06f35b74d9ddf24e916df73a
 
 ## SELECT
 
