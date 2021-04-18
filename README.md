@@ -1,14 +1,20 @@
 
 # SQL
 
+Criei esse material com base na playlist do Canal do Youtube [DEV Aprender](https://www.youtube.com/watch?v=FNV7_9QsCok&list=PLnNURxKyyLIInBfeGiJ8L314AD015mHkv&index=1), todos os exemplos seguem os videos das aulas da playlist com a resolução de todos exercícios.
+
+*O canal do Youtube DEV Aprender não é de minha autoria
+
 ## Instalando SQL Server Management Studio (SSMS)
+
+[![Instalando](https://img.youtube.com/vi/FNV7_9QsCok/0.jpg)](https://www.youtube.com/watch?v=FNV7_9QsCok)
 
 ## Restaurando Banco de Dados
 
 Baixe o banco de dados com o link abaixo e importe para o SSMS
 [Download Banco de Dados](https://github-releases.githubusercontent.com/53698446/0d72fc96-bb25-11e7-97d8-9905e109d7f6?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210418%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210418T213236Z&X-Amz-Expires=300&X-Amz-Signature=95535c655f397620b15a62eff5c11e2fa144a6fb725e9e8a87ab4e7ecd810252&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=53698446&response-content-disposition=attachment%3B%20filename%3DAdventureWorks2017.bak&response-content-type=application%2Foctet-stream)
 
-![Restaurando](https://www.youtube.com/watch?v=CFyfWd7pIhU)
+[![Restaurando](https://img.youtube.com/vi/CFyfWd7pIhU/0.jpg)](https://www.youtube.com/watch?v=CFyfWd7pIhU)
 
 ## Comandos SQL
 
@@ -24,7 +30,7 @@ Baixe o banco de dados com o link abaixo e importe para o SSMS
 * [DESAFIO FUNDAMENTOS SQL](#Desafio-Fundamentos-SQL)
 * [AGREGAÇÃO MIN, MAX, SUM e AVG](#Agregação-MIN,-MAX,-SUM-e-AVG)
 * [GROUP BY](#GROUP-BY)
-* [Heaving](#Heaving)
+* [HEAVING](#Heaving)
 
 ## SELECT
 
@@ -334,5 +340,5 @@ FROM Production.WorkOrder
 GROUP BY ProductID
 ```
 
-# Heaving
+# HEAVING
 
